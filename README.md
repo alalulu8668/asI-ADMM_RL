@@ -28,11 +28,25 @@ Edge computing provides a promising paradigm to support the implementation of In
 
 ## Key Features
 
-- The code contains adaptive stochastic ADMM algorithm. We evaluate the algorithm in decentralized least square regression and logistic regression. 
-- Highlight the innovative or unique aspects of your approach.
-- Include any performance benchmarks or results if available.
+This repository provides a comprehensive implementation of the research paper "Adaptive Stochastic ADMM for Decentralized Reinforcement Learning in Edge IoT." It consists of the following three main components:
+
+1. **Decentralized Least Square (decentralized_least_square):**
+   - Implementation of the decentralized least square optimization using proposed asIADMM algorithm.
+   - Includes code and resources for solving decentralized optimization problems using least square techniques.
+
+2. **Stochastic Least Square (stochastic_least_square):**
+   - Implementation of the stochastic least square optimization using stochastic incremental ADMM algorithm. This is the vanila version.
+   - Provides tools for solving decentralized optimization problems with a stochastic approach.
+
+
+3. **ADMM Reinforcement Learning (admm_rl):**
+   - Integration of Adaptive Stochastic Alternating Direction Method of Multipliers (ADMM) for decentralized reinforcement learning.
+   - Use customized environment using matlab reinforcement learning package. 
+
+
+** All the simulations consider variance in the results, which means multiple realizations are implemented in one results.**
+** Shaded plot with variance uses stdshade.m file. **
 
 ## Installation
 
-Explain how to set up and install your project. Include detailed instructions for any dependencies and environment setup. For example:
-
+May require reinforcement learning package in matlab. 
