@@ -31,6 +31,7 @@ This repository provides a comprehensive implementation of the research paper "A
 1. **Decentralized Least Square (decentralized_least_square):**
    - Implementation of the decentralized least square optimization using proposed asIADMM algorithm.
    - Includes code and resources for solving decentralized optimization problems using least square techniques.
+![Decentralized optimization problems using asI-ADMM](regression_admm.png)
 
 2. **Stochastic Least Square (stochastic_least_square):**
    - Implementation of the stochastic least square optimization using stochastic incremental ADMM algorithm. This is the vanila version.
