@@ -16,7 +16,7 @@ This repository contains the code and resources related to the paper titled "Ada
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Citation](#citation)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -51,8 +51,21 @@ This repository provides a comprehensive implementation of the research paper "A
 
 May require reinforcement learning package in matlab. 
 
-## Usage
-This code is only for research-oriencted projects. 
+## Citation
+
+If you find this repository or the research paper "Adaptive Stochastic ADMM for Decentralized Reinforcement Learning in Edge IoT" useful in your work, please consider citing it:
+
+```bibtex
+@article{lei2022adaptive,
+  title={Adaptive Stochastic ADMM for Decentralized Reinforcement Learning in Edge IoT},
+  author={Lei, Wanlu and Ye, Yu and Xiao, Ming and Skoglund, Mikael and Han, Zhu},
+  journal={IEEE Internet of Things Journal},
+  volume={9},
+  number={22},
+  pages={22958--22971},
+  year={2022},
+  publisher={IEEE}
+}
 
 ## License
 NA
