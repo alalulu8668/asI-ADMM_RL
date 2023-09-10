@@ -43,9 +43,9 @@ This repository provides a comprehensive implementation of the research paper "A
    - Use customized environment using matlab reinforcement learning package. 
 ![Decentralized RL using asI-ADMM](rl_admm.png)
 
-** All the simulations consider variance in the results, which means multiple realizations are implemented in one results.**
+* All the simulations consider variance in the results, which means multiple realizations are implemented in one results.*
 
-** Shaded plot with variance uses stdshade.m file. **
+* Shaded plot with variance uses stdshade.m file. *
 
 ## Installation
 
