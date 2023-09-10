@@ -41,7 +41,7 @@ This repository provides a comprehensive implementation of the research paper "A
 3. **ADMM Reinforcement Learning (admm_rl):**
    - Integration of Adaptive Stochastic Alternating Direction Method of Multipliers (ADMM) for decentralized reinforcement learning.
    - Use customized environment using matlab reinforcement learning package. 
-
+![Decentralized RL using asI-ADMM](rl_admm.png)
 
 ** All the simulations consider variance in the results, which means multiple realizations are implemented in one results.**
 
