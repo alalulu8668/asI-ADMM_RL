@@ -1,7 +1,7 @@
 # asI-ADMM_RL
 # Adaptive Stochastic ADMM for Decentralized Reinforcement Learning in Edge IoT
 
-![GitHub last commit](https://img.shields.io/github/alalulu8668/asI-ADMM_RL)
+![GitHub last commit](https://img.shields.io/github/last-commit/alalulu8668/asI-ADMM_RL)
 ![GitHub contributors](https://img.shields.io/github/contributors/alalulu8668/asI-ADMM_RL)
 ![GitHub stars](https://img.shields.io/github/stars/alalulu8668/asI-ADMM_RL?style=social)
 
@@ -28,7 +28,7 @@ Edge computing provides a promising paradigm to support the implementation of In
 
 ## Key Features
 
-- List the key features and functionalities of your codebase.
+- The code contains adaptive stochastic ADMM algorithm. We evaluate the algorithm in decentralized least square regression and logistic regression. 
 - Highlight the innovative or unique aspects of your approach.
 - Include any performance benchmarks or results if available.
 
