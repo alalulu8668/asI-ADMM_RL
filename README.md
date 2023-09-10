@@ -17,8 +17,6 @@ This repository contains the code and resources related to the paper titled "Ada
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -45,8 +43,18 @@ This repository provides a comprehensive implementation of the research paper "A
 
 
 ** All the simulations consider variance in the results, which means multiple realizations are implemented in one results.**
+
 ** Shaded plot with variance uses stdshade.m file. **
 
 ## Installation
 
 May require reinforcement learning package in matlab. 
+
+## Usage
+This code is only for research-oriencted projects. 
+
+## License
+NA
+
+## Acknowledgements
+Thanks to Yu Ye for implementation of vanila stochastic ADMM. 
