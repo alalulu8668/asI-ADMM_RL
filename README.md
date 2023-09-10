@@ -16,9 +16,8 @@ This repository contains the code and resources related to the paper titled "Ada
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Installation](#installation)
-- [Citation](#citation)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Citation](#citation)
 
 ## Introduction
 Edge computing provides a promising paradigm to support the implementation of Internet of Things (IoT) by offloading tasks to nearby edge nodes. Meanwhile, the increasing network size makes it impractical for centralized data processing due to limited bandwidth, and consequently a decentralized learning scheme is preferable. Reinforcement learning (RL) has been widely investigated and shown to be a promising solution for decision-making and optimal control processes. For RL in a decentralized setup, edge nodes (agents) connected through a communication network aim to work collaboratively to find a policy to optimize the global reward as the sum of local rewards.  However, communication costs, scalability and adaptation in complex environments with heterogeneous agents may significantly limit the performance of decentralized RL. Alternating direction method of multipliers (ADMM) has a structure that allows for decentralized implementation, and has shown faster convergence than gradient descent based methods. Therefore, we propose an adaptive stochastic incremental ADMM (asI-ADMM) algorithm and apply the asI-ADMM to decentralized RL with edge-computing-empowered IoT networks. We provide convergence properties for proposed algorithms by designing a Lyapunov function and prove that the asI-ADMM has $\mathcal{O}(\frac{1}{k}) +\mathcal{O}(\frac{1}{M})$ convergence rate where $k$ and $ M$ are the number of iterations and batch samples, respectively. Then, we test our algorithm with two supervised learning problems. For performance evaluation, we simulate two applications in decentralized RL settings with homogeneous and heterogeneous agents. The experiment results show that our proposed algorithms outperform the state of the art in terms of communication costs and scalability, and can well adapt to complex IoT environments.
@@ -51,6 +50,9 @@ This repository provides a comprehensive implementation of the research paper "A
 
 May require reinforcement learning package in matlab. 
 
+## Acknowledgements
+Thanks to Yu Ye for implementation of vanila stochastic ADMM. 
+
 ## Citation
 
 If you find this repository or the research paper "Adaptive Stochastic ADMM for Decentralized Reinforcement Learning in Edge IoT" useful in your work, please consider citing it:
@@ -67,8 +69,4 @@ If you find this repository or the research paper "Adaptive Stochastic ADMM for 
   publisher={IEEE}
 }
 
-## License
-NA
 
-## Acknowledgements
-Thanks to Yu Ye for implementation of vanila stochastic ADMM. 
